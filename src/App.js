@@ -1,9 +1,11 @@
 import "./App.css";
+import Editor from "./components/Editor";
+import MarkdownPreviewer from "./components/MarkdownPreviewer";
 
 function App() {
   return (
     <div className="App">
-      <p>Hello</p>
+      <Editor />
     </div>
   );
 }
